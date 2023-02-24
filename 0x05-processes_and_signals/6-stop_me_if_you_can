@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Stop a infinity loop without using kill/killall commands
+pkill pgrep -f 4-to_infinity_and_beyond
